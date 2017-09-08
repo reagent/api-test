@@ -1,0 +1,5 @@
+{
+	"name": "API test",
+	"image": "heroku/go:1.6",
+	"mount_dir": "src/github.com/reagent/api-test"
+}
