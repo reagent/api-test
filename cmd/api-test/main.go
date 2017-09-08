@@ -41,6 +41,8 @@ func main() {
 	handler := http.NewServeMux()
 
 	handler.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		log.Println("GET /")
+		
 		var count int64
 
 		w.Header().Set("Content-Type", "application/json")

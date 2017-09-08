@@ -15,5 +15,10 @@
 			"revisionTime": "2017-08-10T06:12:20Z"
 		}
 	],
-	"rootPath": "github.com/reagent/api-test"
+	"rootPath": "github.com/reagent/api-test",
+
+	"heroku": {
+		"install": ["./cmd/..."]
+	}
+
 }
